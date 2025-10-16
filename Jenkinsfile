@@ -13,7 +13,7 @@ bat 'venv\\Scripts\\activate && pip install -r requirements.txt'
 stage('Ejecutar script') {
 steps {
 echo "Ejecutando script principal..."
-bat 'venv\\Scripts\\activate && python src\\hello.py'
+bat 'venv\\Scripts\\activate && python src\\clase02DevOps.py'
 }
 }
 }
